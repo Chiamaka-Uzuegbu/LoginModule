@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginModule", "LoginModule.csproj", "{E2C53FF8-9900-49CE-9FAE-6D4224ECD6BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordHasherandJwtTokenProvider", "..\PasswordHasherandJwtTokenProvider\PasswordHasherandJwtTokenProvider.csproj", "{C6A2EBBB-C72F-411E-905E-ACE643C2EB25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginModule1.Core", "..\LoginModule1.Core\LoginModule1.Core.csproj", "{50F0E8CF-66BE-416F-9BAC-0A591229BC30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginModule1.Infrastructure", "..\LoginModule1.Infrastructure\LoginModule1.Infrastructure.csproj", "{BF0383A6-16ED-4062-BA36-296A992E8946}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C6A2EBBB-C72F-411E-905E-ACE643C2EB25} = {C6A2EBBB-C72F-411E-905E-ACE643C2EB25}
+		{50F0E8CF-66BE-416F-9BAC-0A591229BC30} = {50F0E8CF-66BE-416F-9BAC-0A591229BC30}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2C53FF8-9900-49CE-9FAE-6D4224ECD6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C53FF8-9900-49CE-9FAE-6D4224ECD6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C53FF8-9900-49CE-9FAE-6D4224ECD6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C53FF8-9900-49CE-9FAE-6D4224ECD6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A2EBBB-C72F-411E-905E-ACE643C2EB25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A2EBBB-C72F-411E-905E-ACE643C2EB25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A2EBBB-C72F-411E-905E-ACE643C2EB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A2EBBB-C72F-411E-905E-ACE643C2EB25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F0E8CF-66BE-416F-9BAC-0A591229BC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F0E8CF-66BE-416F-9BAC-0A591229BC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F0E8CF-66BE-416F-9BAC-0A591229BC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F0E8CF-66BE-416F-9BAC-0A591229BC30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0383A6-16ED-4062-BA36-296A992E8946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0383A6-16ED-4062-BA36-296A992E8946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0383A6-16ED-4062-BA36-296A992E8946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0383A6-16ED-4062-BA36-296A992E8946}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F5C550F-7DA3-4C1F-B17D-CD6366A42CBD}
+	EndGlobalSection
+EndGlobal
